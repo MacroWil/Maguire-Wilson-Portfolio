@@ -22,7 +22,7 @@ Browse the Creations of Maguire Wilson
 
 ## Credits
 
-Maguire Wilson, steam community user M 4! for coming soon image, KPMG International for space background1, UKRI for space background2,
+Maguire Wilson, steam community user M 4! for coming soon GIF, KPMG International for space background1, UKRI for space background2, thanks to Luke Douglas on Stackoverflow for example code on how to shade an image when hovered.
 
 ## Features
 
