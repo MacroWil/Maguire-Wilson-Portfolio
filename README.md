@@ -1,8 +1,8 @@
-# <MOD 1 CHALLENGE>
+# <Maguire Wilson Portfolio>
 
 ## Description
 
-Portfolio website
+Portfolio website for Maguire Wilsons projects
 
 ## Table of Contents
 
@@ -18,6 +18,8 @@ Using Git bash create a repository and use that to store update information with
 
 ## Usage
 
+Browse the Creations of Maguire Wilson
+
 ## Credits
 
 Maguire Wilson, steam community user M 4! for coming soon image, KPMG International for space background1, UKRI for space background2,
@@ -27,3 +29,5 @@ Maguire Wilson, steam community user M 4! for coming soon image, KPMG Internatio
 Functional links [LINK TO ONLINE SITE] (https://macrowil.github.io/Maguire-Wilson-Portfolio/)
 
 ## Screenshot
+
+![Site expected behavior](./asset/sitescreenshot.png)
