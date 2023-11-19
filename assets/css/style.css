@@ -4,6 +4,12 @@
 body {
   font-family: Arial;
   margin: 0;
+  background-color: #13293d;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 main {
@@ -20,6 +26,7 @@ main {
 }
 p {
   color: #fff;
+  text-indent: 4%;
 }
 footer h3 {
   margin: 0;
@@ -41,6 +48,23 @@ main h3 {
   background-image: url(space1.jpg);
   color: #fff;
   border-right: 5px solid #13293d;
+}
+
+.card1,
+.card1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px 20px 0px 20px;
+  background-color: #c37500;
+  border-radius: 20px;
+}
+
+.card img:hover,
+.card1 img:hover {
+  background-color: #c37500;
+  opacity: 0.7 !important;
+  filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
 }
 
 .main-header {
@@ -116,10 +140,24 @@ footer ul {
   list-style: none;
 }
 
-ul li {
+nav {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+nav li {
+  text-decoration: none;
   justify-content: center;
   display: inline;
-  list-style: none;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+footer ul li {
+  justify-content: center;
+  display: inline;
   list-style: none;
   padding-left: 10%;
   padding-right: 10%;
@@ -128,8 +166,16 @@ ul li {
 @media screen and (max-width: 768px) {
   p {
     padding-bottom: 20px;
+    text-indent: 4%;
   }
-
+  nav li {
+    text-align: center;
+    justify-content: center;
+    display: inline;
+    list-style: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
   .main-header {
     font-size: 80%;
   }
