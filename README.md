@@ -30,4 +30,4 @@ Functional links [LINK TO ONLINE SITE] (https://macrowil.github.io/Maguire-Wilso
 
 ## Screenshot
 
-![Site expected behavior](./asset/sitescreenshot.png)
+![Site expected behavior](./assets/sitescreenshot.png)
