@@ -2,7 +2,7 @@
 
 ## Description
 
-Edited semantics in HTML to have better search engine optimization
+Portfolio website
 
 ## Table of Contents
 
@@ -18,16 +18,12 @@ Using Git bash create a repository and use that to store update information with
 
 ## Usage
 
-View changes to Horiseon website
-
 ## Credits
 
-Maguire Wilson, Georgeyoo (for starter code)
+Maguire Wilson, steam community user M 4! for coming soon image, KPMG International for space background1, UKRI for space background2,
 
 ## Features
 
-Functional links [LINK TO ONLINE SITE] (https://macrowil.github.io/mod1-challenge-MacroWil/)
+Functional links [LINK TO ONLINE SITE] (https://macrowil.github.io/Maguire-Wilson-Portfolio/)
 
 ## Screenshot
-
-![Horiseon webpage expected behavior](./assets/images/horiseon-site.jpg)
