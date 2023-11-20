@@ -21,7 +21,7 @@ main {
   flex: 0 0 100%;
   width: auto;
   border: 5px solid #13293d;
-  background-image: url(space2.630);
+  background-color: #2a607c;
 }
 
 p {
@@ -38,7 +38,7 @@ main h3 {
   width: 150px;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-image: url(space1.jpg);
+  background-color: #2a607c;
   color: #fff;
   border-right: 5px solid #13293d;
 }
@@ -61,7 +61,7 @@ footer h3 {
   text-align: center;
   width: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
+  background-color: #2a607c;
 }
 
 footer ul {
@@ -141,10 +141,9 @@ footer ul li {
 .card img:hover,
 .card1 img:hover {
   opacity: 0.7;
-  filter: alpha(opacity=70)
+  filter: alpha(opacity=70);
   box-shadow: 0 0 0px #000000;
 }
-
 
 /* functionality for fomatting on smaller screens */
 @media screen and (max-width: 768px) {
