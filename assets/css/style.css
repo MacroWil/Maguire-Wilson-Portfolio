@@ -1,14 +1,14 @@
+/* make links appear as normal text */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /* formatting for webpage behavior */
 body {
   font-family: Arial;
   margin: 0;
   background-color: #13293d;
-}
-
-/* make links appear as normal text */
-a {
-  color: inherit;
-  text-decoration: inherit;
 }
 
 main {
@@ -43,11 +43,18 @@ main h3 {
   border-right: 5px solid #13293d;
 }
 
+footer h3,
+footer ul,
 nav {
   margin: 0;
   text-align: center;
   color: #fff;
   list-style: none;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-left: 5px solid #13293d;
+  border-right: 5px solid #13293d;
+  background-color: #2a607c;
   text-decoration: none;
 }
 nav li {
@@ -56,22 +63,9 @@ nav li {
   padding-right: 7%;
 }
 
-footer h3 {
-  margin: 0;
-  text-align: center;
-  width: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2a607c;
-}
-
 footer ul {
-  text-align: center;
-  margin: 0;
-  padding-top: 20px;
+  border-bottom: 5px solid #13293d;
   padding-bottom: 20px;
-  background: #13293d;
-  color: #fff;
-  list-style: none;
 }
 
 footer ul li {
