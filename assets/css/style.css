@@ -1,3 +1,4 @@
+/* variables */
 :root {
   --border: #13293d;
   --backcol: #2a607c;
@@ -59,6 +60,7 @@ nav {
   list-style: none;
   padding-top: 1px;
   padding-bottom: 1px;
+  border-top: 5px solid var(--border);
   border-left: 5px solid var(--border);
   border-right: 5px solid var(--border);
   background-color: var(--backcol);
@@ -86,6 +88,18 @@ footer ul li {
   justify-content: center;
   background: var(--border);
   color: var(--white);
+  background-image: url(profile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.header-photo {
+  display: relative;
+  margin-right: 40%;
+  justify-content: flex-start;
+  padding-left: 5px;
+  width: 8%;
 }
 
 /*Card Formatting(this could probably be made more efficient) */
