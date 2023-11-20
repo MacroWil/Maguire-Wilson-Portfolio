@@ -1,3 +1,10 @@
+:root {
+  --border: #13293d;
+  --backcol: #2a607c;
+  --black: black;
+  --white: white;
+}
+
 /* make links appear as normal text */
 a {
   color: inherit;
@@ -8,7 +15,7 @@ a {
 body {
   font-family: Arial;
   margin: 0;
-  background-color: #13293d;
+  background-color: var(--border);
 }
 
 main {
@@ -20,12 +27,12 @@ main {
   max-width: 400%;
   flex: 0 0 100%;
   width: auto;
-  border: 5px solid #13293d;
-  background-color: #2a607c;
+  border: 5px solid var(--border);
+  background-color: var(--backcol);
 }
 
 p {
-  color: #fff;
+  color: var(--white);
   text-indent: 4%;
 }
 
@@ -38,9 +45,9 @@ main h3 {
   width: 150px;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2a607c;
-  color: #fff;
-  border-right: 5px solid #13293d;
+  background-color: var(--backcol);
+  color: var(--white);
+  border-right: 5px solid var(--border);
 }
 
 footer h3,
@@ -48,13 +55,13 @@ footer ul,
 nav {
   margin: 0;
   text-align: center;
-  color: #fff;
+  color: var(--white);
   list-style: none;
   padding-top: 1px;
   padding-bottom: 1px;
-  border-left: 5px solid #13293d;
-  border-right: 5px solid #13293d;
-  background-color: #2a607c;
+  border-left: 5px solid var(--border);
+  border-right: 5px solid var(--border);
+  background-color: var(--backcol);
   text-decoration: none;
 }
 nav li {
@@ -64,7 +71,7 @@ nav li {
 }
 
 footer ul {
-  border-bottom: 5px solid #13293d;
+  border-bottom: 5px solid var(--border);
   padding-bottom: 20px;
 }
 
@@ -77,8 +84,8 @@ footer ul li {
 .main-header {
   display: flex;
   justify-content: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--border);
+  color: var(--white);
 }
 
 /*Card Formatting(this could probably be made more efficient) */
@@ -98,8 +105,8 @@ footer ul li {
   padding: 10px;
   margin: 20px;
   border-radius: 20px;
-  box-shadow: 15px 15px 15px #13293d;
-  background-color: black;
+  box-shadow: 15px 15px 15px var(--border);
+  background-color: var(--black);
 }
 
 .card {
@@ -112,8 +119,8 @@ footer ul li {
   margin: 20px;
   width: 30%;
   border-radius: 20px;
-  box-shadow: 15px 15px 15px #13293d;
-  background-color: black;
+  box-shadow: 15px 15px 15px var(--border);
+  background-color: var(--black);
 }
 
 .card1 header,
@@ -121,8 +128,8 @@ footer ul li {
   text-align: center;
   padding: 20px;
   border-radius: 20px 20px 0px 0px;
-  background-color: #13293d;
-  color: #fff;
+  background-color: var(--border);
+  color: var(--white);
 }
 
 .card1 img,
@@ -136,7 +143,7 @@ footer ul li {
 .card1 img:hover {
   opacity: 0.7;
   filter: alpha(opacity=70);
-  box-shadow: 0 0 0px #000000;
+  box-shadow: 0 0 0px var(--black);
 }
 
 /* functionality for fomatting on smaller screens */
@@ -171,6 +178,6 @@ footer ul li {
     margin: 20px;
     flex: 0 0 80%;
     border-radius: 20px;
-    box-shadow: 15px 15px 15px #13293d;
+    box-shadow: 15px 15px 15px var(--border);
   }
 }
