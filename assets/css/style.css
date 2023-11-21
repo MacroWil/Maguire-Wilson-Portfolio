@@ -35,9 +35,13 @@ main {
 p {
   color: var(--white);
   text-indent: 4%;
+  border-left: 150px solid #13293d;
+  padding-left: 20px;
 }
 
 main h3 {
+  display: flex;
+  justify-content: center;
   text-align: center;
   line-height: 400%;
   margin: 0;
@@ -158,10 +162,6 @@ footer ul li {
 
 /* functionality for fomatting on smaller screens */
 @media screen and (max-width: 768px) {
-  p {
-    padding-bottom: 40px;
-    text-indent: 4%;
-  }
   nav li {
     text-align: center;
     display: inline;
